@@ -4,7 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ImageGallery</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <header class="header">
+        <div class="logo">RS Gallery</div>
+        <div class="search-wrapper">
+            <input type="text" class="search" required placeholder="Search" autocomplete="off">
+            <img src="assets/icon/close.png" alt="close" class="close">
+            <div class="icon-wrapper">
+                <img src="assets/icon/search.png" alt="search" class="search-icon">
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="image-wrapper">
+        </div>
+    </div>
+
+    <footer>
+        <div class="links">
+            <div class="link-item">
+                <a href="https://github.com/sdeaiko" target="_blank">
+                    <img src="assets/icon/github.svg" alt="github" class="gh">
+                </a>
+            </div>
+            <div class="link-item">
+                <div class="year">2023</div>
+            </div>
+            <div class="link-item">
+                <div class="logo-wrapper">
+                    <a href="https://rs.school/js-stage0/" target="_blank">
+                        <img src="assets/icon/rs_school_logo.svg" alt="rs school" class="rs">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
 </body>
 </html>
